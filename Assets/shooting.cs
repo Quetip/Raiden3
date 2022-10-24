@@ -12,13 +12,13 @@ public class shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L));
-        
+        if (Input.GetKeyDown(KeyCode.L))
         {
+            
             Shoot();
         }
     }
-
+    
     void Shoot()
     {
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
