@@ -15,7 +15,7 @@ C:/Users/wrous/Raiden3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52605
+53258
 Successfully changed project path to: C:/Users/wrous/Raiden3
 C:/Users/wrous/Raiden3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/wrous/Raiden3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 205.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 172.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -63,90 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020124 seconds.
+Registered in 0.027677 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 184.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 246.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.377 seconds
+- Completed reload, in  1.464 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1377ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (1466ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (961ms)
-			LoadAssemblies (188ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (167ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (225ms)
+			SetupTypeCache (195ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (611ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (715ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (184ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (247ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (342ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021319 seconds.
+Registered in 0.019374 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 416.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 196.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.420 seconds
+- Completed reload, in  2.881 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3422ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (2883ms)
+		BeginReloadAssembly (308ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (2969ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (2282ms)
+			LoadAssemblies (335ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (499ms)
+			SetupTypeCache (502ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (1922ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (1238ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (417ms)
-				BeforeProcessingInitializeOnLoad (172ms)
-				ProcessInitializeOnLoadAttributes (1180ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (197ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (570ms)
+				ProcessInitializeOnLoadMethodAttributes (218ms)
+				AfterProcessingInitializeOnLoad (30ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3913 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (225.5 KB). Loaded Objects now: 4366.
+Unloading 3916 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (225.4 KB). Loaded Objects now: 4369.
 Memory consumption went from 147.1 MB to 146.9 MB.
-Total: 5.711200 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.325600 ms MarkObjects: 4.420500 ms  DeleteObjects: 0.595000 ms)
+Total: 19.455100 ms (FindLiveObjects: 0.466800 ms CreateObjectMapping: 0.473600 ms MarkObjects: 17.673000 ms  DeleteObjects: 0.839100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,414 +164,276 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 157713.902029 seconds.
-  path: Assets/Raiden/0058 copy copy.png
-  artifactKey: Guid(e69644f3acd986c489d9fd4b5e308219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raiden/0058 copy copy.png using Guid(e69644f3acd986c489d9fd4b5e308219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da80c6afa977e708d6cb855ae7d6204') in 0.483597 seconds 
+  Time since last request: 79905.103194 seconds.
+  path: Assets/background
+  artifactKey: Guid(d9c1e28fe1964b34eba75ca7adce792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/background using Guid(d9c1e28fe1964b34eba75ca7adce792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d99facbac8fba813f976fe0656db5d3') in 0.029445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5057.510321 seconds.
-  path: Assets/raidendx 1
-  artifactKey: Guid(067d50b0d329f18408e180a8e7e6cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1 using Guid(067d50b0d329f18408e180a8e7e6cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f794932b86d889aa1b2393bdd21769fe') in 0.026542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/raidendx 1/0001.png
-  artifactKey: Guid(2b10487df1663f14aa8599720920dfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0001.png using Guid(2b10487df1663f14aa8599720920dfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02df57363979e608488e0ffb842f76b6') in 0.234856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/raidendx 1/0013.png
-  artifactKey: Guid(7a6485aa9ab926b48bf324e5126fd918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0013.png using Guid(7a6485aa9ab926b48bf324e5126fd918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea9555bbc603e99c8e3a9fec9d54085') in 0.070800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/raidendx 1/0011.png
-  artifactKey: Guid(f372b891c5a06374db4b90f92a9b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0011.png using Guid(f372b891c5a06374db4b90f92a9b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a60a75425b3fae074c9b8c693b5cca') in 0.106861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/raidendx 1/0322.png
-  artifactKey: Guid(0c63daa0d5f5acb4aaccb5ec9369a406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0322.png using Guid(0c63daa0d5f5acb4aaccb5ec9369a406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93ee80c26e4e791214b1092df5867dc') in 0.061080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/raidendx 1/0345.png
-  artifactKey: Guid(c79c11af79997cd4a9e90b92b7621087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0345.png using Guid(c79c11af79997cd4a9e90b92b7621087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac3df9526b87d8e568c31f0956989ef') in 0.048819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/raidendx 1/0003.png
-  artifactKey: Guid(5b1e440a2f2b8af44af0b7e0d2d7fe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0003.png using Guid(5b1e440a2f2b8af44af0b7e0d2d7fe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c8b812010f25c79d0d92b8c417b619') in 0.050177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/raidendx 1/0009.png
-  artifactKey: Guid(20fb65cd1770a114e87cd5ae87c55ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0009.png using Guid(20fb65cd1770a114e87cd5ae87c55ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7553a5be8b23fbbc016cfc6719f6764') in 0.053020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/raidendx 1/0323.png
-  artifactKey: Guid(0a91a7780df9dab4d9f6bdb63c553ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0323.png using Guid(0a91a7780df9dab4d9f6bdb63c553ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b0ce89ad6087c47f4880c72610c2e7') in 0.052885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/raidendx 1/raidenShipUpgraded.png
-  artifactKey: Guid(cf92a9afa20dadc44b709846683fc2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/raidenShipUpgraded.png using Guid(cf92a9afa20dadc44b709846683fc2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222fa4be1577d0cbee9496151bd270cf') in 0.053488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/raidendx 1/0008.png
-  artifactKey: Guid(705f5b3a0c23cf344b6653b81701dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0008.png using Guid(705f5b3a0c23cf344b6653b81701dbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b48361789f8a8a1b8c7b34012e095c') in 0.068460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/raidendx 1/0313.png
-  artifactKey: Guid(8b7f797d32a79ad48af718594599a4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0313.png using Guid(8b7f797d32a79ad48af718594599a4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd2ddb76d002be24542de64480f26d8') in 0.048389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/raidendx 1/0002.png
-  artifactKey: Guid(482e1fe49e7c78e49b2c61c182763cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0002.png using Guid(482e1fe49e7c78e49b2c61c182763cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecc8cef8a1be3b37480d302f8fa09b0') in 0.056173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003920 seconds.
-  path: Assets/raidendx 1/0328.png
-  artifactKey: Guid(4fd7725276dfa6646a5eaea8cc6f92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0328.png using Guid(4fd7725276dfa6646a5eaea8cc6f92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f88567e4a7db16d0173c34f470066a') in 0.102059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/raidendx 1/0004.png
-  artifactKey: Guid(812b013c1ede2284b992336a9241525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0004.png using Guid(812b013c1ede2284b992336a9241525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d149fd84ff23b853399c9f0f8e5ddc') in 0.047055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/raidendx 1/0063 copy.png
-  artifactKey: Guid(4e7e2b75159eedb46bc703f44dc521cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0063 copy.png using Guid(4e7e2b75159eedb46bc703f44dc521cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5aae450d71e6b5d20a02a85b0ddbe2') in 0.046348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/raidendx 1/0324.png
-  artifactKey: Guid(a64c632cc452abd419566745ecf7ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0324.png using Guid(a64c632cc452abd419566745ecf7ab20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cabef399b18234fe56d12a55106a60f') in 0.042550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/raidendx 1/0014.png
-  artifactKey: Guid(c4e6d8b7f1f6a7548913b86a870a6927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0014.png using Guid(c4e6d8b7f1f6a7548913b86a870a6927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a3e85e5b77cce0b775d3f69bc56adc') in 0.037816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/raidendx 1/0016.png
-  artifactKey: Guid(fcec5ec5fac51094586f432530a9c3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0016.png using Guid(fcec5ec5fac51094586f432530a9c3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9eb93c7b90b77f89049724e2d00a441') in 0.051544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/raidendx 1/0061 copy.png
-  artifactKey: Guid(3c0208dee5339424399f119add253f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0061 copy.png using Guid(3c0208dee5339424399f119add253f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef112599912dacae59abdff2a17d1be') in 0.053335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/raidendx 1/raidenShip.png
-  artifactKey: Guid(e1005e4e9938a7544823cf221b2f4117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/raidenShip.png using Guid(e1005e4e9938a7544823cf221b2f4117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfa33d61203a1a561b173ea496a6e70') in 0.045383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/raidendx 1/0335.png
-  artifactKey: Guid(32875da0dc11def4291c57bb2007edf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0335.png using Guid(32875da0dc11def4291c57bb2007edf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae4ac073116cdda0056b1e7bce41ec7') in 0.051184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/raidendx 1/0065 copy.png
-  artifactKey: Guid(f80a30ec36c98a243a5d58b74761d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0065 copy.png using Guid(f80a30ec36c98a243a5d58b74761d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a36062681a9f62b58525e93866fe53') in 0.053863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/raidendx 1/0330.png
-  artifactKey: Guid(ee9c1c4a6b9d5d34796495c69f9597f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0330.png using Guid(ee9c1c4a6b9d5d34796495c69f9597f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf9abbeefbaaa5a0a6fdae61c0aed53') in 0.062854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/raidendx 1/0008 copy.png
-  artifactKey: Guid(3189a8096e411fb4eb2dc9332eef524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0008 copy.png using Guid(3189a8096e411fb4eb2dc9332eef524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268e3c66a06a12b1c129023375c64a6d') in 0.055644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/raidendx 1/0015.png
-  artifactKey: Guid(1307cc64b9fa35740908c0eee34e43c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0015.png using Guid(1307cc64b9fa35740908c0eee34e43c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8252f3553ef7b9908818c58ae47883') in 0.041918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/raidendx 1/0064 copy.png
-  artifactKey: Guid(ec14709db927f394f82871aae1f20704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0064 copy.png using Guid(ec14709db927f394f82871aae1f20704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e17719fdc285bc2de67cfab48be72e') in 0.057154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/raidendx 1/0024.png
-  artifactKey: Guid(ae4aeba1a4f8fe942aca61286eb399ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0024.png using Guid(ae4aeba1a4f8fe942aca61286eb399ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e87a79bf84b699ef106a87897bb780') in 0.076504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/raidendx 1/0057 copy copy.png
-  artifactKey: Guid(fa223cc250d3d234cb82cf8252cf832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0057 copy copy.png using Guid(fa223cc250d3d234cb82cf8252cf832c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08816662264e76bdf32db74c3e6d4bb') in 0.051500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/raidendx 1/0019.png
-  artifactKey: Guid(07507a1ba9bc90941ac8303480f8ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0019.png using Guid(07507a1ba9bc90941ac8303480f8ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58093e2ad9f0ffb9482cacc5a8b9cf') in 0.038097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/raidendx 1/0000.png
-  artifactKey: Guid(cecf5a8e721766e40a4d94106063bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0000.png using Guid(cecf5a8e721766e40a4d94106063bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3717984cdc6584768b612f612f66dbc') in 0.041414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/raidendx 1/0017.png
-  artifactKey: Guid(6974d953c6ebe064996e819e09046713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0017.png using Guid(6974d953c6ebe064996e819e09046713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f814fb0e27fc4e54a6ceb55883f44ee2') in 0.028753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/raidendx 1/0010.png
-  artifactKey: Guid(f29587353962d894a83402918b3fdea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0010.png using Guid(f29587353962d894a83402918b3fdea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2dc17271c6d935729cff2888dce013') in 0.042203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/raidendx 1/0340.png
-  artifactKey: Guid(83ea948090bfd064ab67da4eb90bc734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0340.png using Guid(83ea948090bfd064ab67da4eb90bc734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9faf993889883693b46ba6a292a3e4') in 0.043981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/raidendx 1/0062 copy copy.png
-  artifactKey: Guid(fb4969e039a76914582a2d29182fbc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0062 copy copy.png using Guid(fb4969e039a76914582a2d29182fbc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81bff0fa7721d5f1b68c45783a74506') in 0.072431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000628 seconds.
-  path: Assets/raidendx 1/0023.png
-  artifactKey: Guid(99aee28b52164344f955690f445f7544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0023.png using Guid(99aee28b52164344f955690f445f7544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beca018a45919e3618a5f62fc5db1d1') in 0.068271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/raidendx 1/0317.png
-  artifactKey: Guid(20bbcce5f142e794ba06c821a7e72d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0317.png using Guid(20bbcce5f142e794ba06c821a7e72d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4292816ddece8359e7533d4787e4a469') in 0.029965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/raidendx 1/0007.png
-  artifactKey: Guid(1de1416879741c342bb514c04e3c5085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0007.png using Guid(1de1416879741c342bb514c04e3c5085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cde292aaff4310af658cd4690b43ae') in 0.051515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/raidendx 1/raidenShipMedRight.png
-  artifactKey: Guid(836709e47240d074ba7d788766e85f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/raidenShipMedRight.png using Guid(836709e47240d074ba7d788766e85f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264d85d169b26fa7dc03372ea6b1d442') in 0.070045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/raidendx 1/0012.png
-  artifactKey: Guid(0ad32b14ab601d14ebedf20e8c101721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0012.png using Guid(0ad32b14ab601d14ebedf20e8c101721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef4a99466b9b86356e814afa4bd67c1') in 0.097580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/raidendx 1/0336.png
-  artifactKey: Guid(5ab001fa753a6e947979065464c8f63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0336.png using Guid(5ab001fa753a6e947979065464c8f63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b4ef1d297d93ca814d68672cc2d6d2') in 0.028993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/raidendx 1/0022.png
-  artifactKey: Guid(72233ddb74aa5b74d96ed131dda81128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0022.png using Guid(72233ddb74aa5b74d96ed131dda81128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874b51b220441a1577d0567dc4146b0b') in 0.043529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/raidendx 1/0018.png
-  artifactKey: Guid(c46dc0643bb9fac4f95d28601a8611ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0018.png using Guid(c46dc0643bb9fac4f95d28601a8611ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4501fa3044fec6bf795987a47026749a') in 0.030648 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/raidendx 1/0332.png
-  artifactKey: Guid(7d1bdbf6f8d53cf419e9107feead0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0332.png using Guid(7d1bdbf6f8d53cf419e9107feead0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18df35212304f4815f1c3127dcfa6c3b') in 0.052263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/raidendx 1/0021.png
-  artifactKey: Guid(dcaa6bb6a2737024aaeaf0882bd35343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0021.png using Guid(dcaa6bb6a2737024aaeaf0882bd35343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29573f84d5ed5bde8063a9ab79fed362') in 0.053360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/raidendx 1/0305 copy.png
-  artifactKey: Guid(ef262b95cd4900a448e91392726ba55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0305 copy.png using Guid(ef262b95cd4900a448e91392726ba55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d8adfc146b49cc88a6ec0ae5a9b75a') in 0.079632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/raidendx 1/0009 copy.png
-  artifactKey: Guid(77aa3acc119af1c43a136f0c94bc13de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0009 copy.png using Guid(77aa3acc119af1c43a136f0c94bc13de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2778ee6a98b19f497a135482d67d3e11') in 0.045600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/raidendx 1/0005.png
-  artifactKey: Guid(2bdfd51f5616f704e9f273a4a4fa502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0005.png using Guid(2bdfd51f5616f704e9f273a4a4fa502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f47d9e4abd7e969fd4cbd11f4ac6ca') in 0.047073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/raidendx 1/0060 copy.png
-  artifactKey: Guid(587f8d057f49ef943a50dc0b10653cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0060 copy.png using Guid(587f8d057f49ef943a50dc0b10653cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0143b0ae8efcef9fe0b6e1348307d18') in 0.053040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/raidendx 1/1.png
-  artifactKey: Guid(af23ad92e8f7eb64594f48696087a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/1.png using Guid(af23ad92e8f7eb64594f48696087a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87790a6ce14e06495c5bb6d49431263f') in 0.047292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/raidendx 1/0309.png
-  artifactKey: Guid(b7a0c56ee11d0df48948f3e15c5bc13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0309.png using Guid(b7a0c56ee11d0df48948f3e15c5bc13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2929bf1b9e6d9d7ac13488385d258d') in 0.040323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/raidendx 1/raidenShipRight.png
-  artifactKey: Guid(074916e71fe7b6946ad5c54855b5c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/raidenShipRight.png using Guid(074916e71fe7b6946ad5c54855b5c283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c7b270d812f73eada2692ef0327ae7') in 0.057876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/raidendx 1/0059 copy.png
-  artifactKey: Guid(1cb09f0f48cd0b54ebbc7bf09e222de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0059 copy.png using Guid(1cb09f0f48cd0b54ebbc7bf09e222de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f963feaf92c81cd07bb818c81cbf6cf') in 0.046565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/raidendx 1/0326.png
-  artifactKey: Guid(6f8ed7074d5643a4bac18fbf0c111ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0326.png using Guid(6f8ed7074d5643a4bac18fbf0c111ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6151a2bc2291fe06e5c8478f7d1639c9') in 0.045130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/raidendx 1/0341.png
-  artifactKey: Guid(34454031cba347c42b2ec5be1a3fcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0341.png using Guid(34454031cba347c42b2ec5be1a3fcaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616d588d84d1df2730dddd6e94c33018') in 0.073550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/raidendx 1/raidenShipLeft.png
-  artifactKey: Guid(7b11b7195a223d6418881155c34c0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/raidenShipLeft.png using Guid(7b11b7195a223d6418881155c34c0b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420a8796bc46c3dcde461d6c2c27ebde') in 0.039487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/raidendx 1/raidenShipMedLeft.png
-  artifactKey: Guid(08ecd051a038d584b92377da3ed737ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/raidenShipMedLeft.png using Guid(08ecd051a038d584b92377da3ed737ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466374743b91bb43797543d9456ffab9') in 0.047780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/raidendx 1/0006.png
-  artifactKey: Guid(1dede68952d6313469bfa5b104524f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0006.png using Guid(1dede68952d6313469bfa5b104524f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eaf7e6db5a3df2c7537ef6facac3c66') in 0.059962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/raidendx 1/0007 copy.png
-  artifactKey: Guid(6253f51a8343ba247981b7665ed4d0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0007 copy.png using Guid(6253f51a8343ba247981b7665ed4d0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bd32fbaf648a0a5ca89bec1ed9783a') in 0.072178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/raidendx 1/0020.png
-  artifactKey: Guid(d020b108aadb8844cb80c93045ec957d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/raidendx 1/0020.png using Guid(d020b108aadb8844cb80c93045ec957d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b899a2d6ff70250d4a5a843f2376dae') in 0.034951 seconds 
+  Time since last request: 1509.818737 seconds.
+  path: Assets/Scripts/background.cs
+  artifactKey: Guid(b0161114cef57714581c1ec888eea339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/background.cs using Guid(b0161114cef57714581c1ec888eea339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21f036a47ea6f3aab3ddf8839322058') in 0.459056 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.023738 seconds.
+Registered in 0.023294 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.670 seconds
+- Completed reload, in  3.444 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3676ms)
-		BeginReloadAssembly (936ms)
+	ReloadAssembly (3445ms)
+		BeginReloadAssembly (301ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (118ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (401ms)
-		EndReloadAssembly (2404ms)
-			LoadAssemblies (512ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2881ms)
+			LoadAssemblies (269ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (921ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (780ms)
+			SetupTypeCache (706ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (1672ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (181ms)
-				ProcessInitializeOnLoadAttributes (457ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (1310ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (49ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (192.2 KB). Loaded Objects now: 4373.
+Memory consumption went from 147.1 MB to 146.9 MB.
+Total: 7.095000 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.330800 ms MarkObjects: 5.849700 ms  DeleteObjects: 0.520300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023093 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2352ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1835ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (542ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (864ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (28ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3909 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (192.3 KB). Loaded Objects now: 4403.
-Memory consumption went from 151.9 MB to 151.8 MB.
-Total: 8.612200 ms (FindLiveObjects: 0.935600 ms CreateObjectMapping: 0.489100 ms MarkObjects: 6.949100 ms  DeleteObjects: 0.235400 ms)
+Unloading 3912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (192.3 KB). Loaded Objects now: 4376.
+Memory consumption went from 147.1 MB to 146.9 MB.
+Total: 8.639700 ms (FindLiveObjects: 0.376900 ms CreateObjectMapping: 0.263700 ms MarkObjects: 7.651900 ms  DeleteObjects: 0.345400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 370.557677 seconds.
+  path: Assets/Scripts/background.cs
+  artifactKey: Guid(b0161114cef57714581c1ec888eea339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/background.cs using Guid(b0161114cef57714581c1ec888eea339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb6a44786b136a4ad5607d1887ef1d3') in 0.011297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3238.700774 seconds.
+  path: Assets/Sprites/cloud.png
+  artifactKey: Guid(7ddc9407bc392a342ac6ffdbedbe7792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/cloud.png using Guid(7ddc9407bc392a342ac6ffdbedbe7792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857231ed2f466a1d7fda44378cd3091c') in 1.508047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Sprites/cloud2.png
+  artifactKey: Guid(5b67ccf660a133946b597a41d132d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/cloud2.png using Guid(5b67ccf660a133946b597a41d132d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae1962a81a5b0cbf38a6ad1a4dafdff') in 0.118570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites/clouds_blue.jpg
+  artifactKey: Guid(7994bc23320041a44891eb681a25de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/clouds_blue.jpg using Guid(7994bc23320041a44891eb681a25de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b249967663b018b20c53de10b11818') in 0.061028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites/testBullet 1.prefab
+  artifactKey: Guid(019688d6fcbb02f46963d3ceb4a82e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/testBullet 1.prefab using Guid(019688d6fcbb02f46963d3ceb4a82e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84aa8c0373f9134c98a4205cf083fdb2') in 0.297544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Sprites/cloud1.png
+  artifactKey: Guid(5c695dbd6fb8d0b408e4ff1d44bcda16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/cloud1.png using Guid(5c695dbd6fb8d0b408e4ff1d44bcda16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc5c1d9e425f55d404e189929891102') in 0.298171 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035288 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 10.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 42.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (42801ms)
+		BeginReloadAssembly (4983ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (278ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (6ms)
+			CreateAndSetChildDomain (1741ms)
+		EndReloadAssembly (35638ms)
+			LoadAssemblies (3287ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (13577ms)
+			ReleaseScriptCaches (29ms)
+			RebuildScriptCaches (11806ms)
+			SetupLoadedEditorAssemblies (5780ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (162ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (11ms)
+				BeforeProcessingInitializeOnLoad (1836ms)
+				ProcessInitializeOnLoadAttributes (3169ms)
+				ProcessInitializeOnLoadMethodAttributes (309ms)
+				AfterProcessingInitializeOnLoad (289ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (73ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (192.2 KB). Loaded Objects now: 4398.
+Memory consumption went from 151.5 MB to 151.3 MB.
+Total: 65.903200 ms (FindLiveObjects: 0.515600 ms CreateObjectMapping: 1.408500 ms MarkObjects: 63.349500 ms  DeleteObjects: 0.627100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061321 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\wrous\Raiden3\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11042ms)
+		BeginReloadAssembly (1295ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (69ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (343ms)
+		EndReloadAssembly (8636ms)
+			LoadAssemblies (1208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2630ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (653ms)
+			SetupLoadedEditorAssemblies (3902ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (114ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (780ms)
+				ProcessInitializeOnLoadAttributes (2431ms)
+				ProcessInitializeOnLoadMethodAttributes (504ms)
+				AfterProcessingInitializeOnLoad (64ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (69ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 30.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3912 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (192.2 KB). Loaded Objects now: 4401.
+Memory consumption went from 151.5 MB to 151.3 MB.
+Total: 54.949500 ms (FindLiveObjects: 0.497200 ms CreateObjectMapping: 4.943500 ms MarkObjects: 49.148000 ms  DeleteObjects: 0.359100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

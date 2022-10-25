@@ -1,3 +1,13 @@
+to do:
+scrolling background
+raiden sprites
+enemy sprites
+story line
+weapon systems
+missile systems
+chain gun?
+
+
 trouble, hardship, adversity, disaster, suffer, misery, heartbreak boss names
 
 do not put spaces in files
