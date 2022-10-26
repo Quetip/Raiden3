@@ -19,10 +19,12 @@ public class background : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        float temp = (cam.transform.position.x * (1 - parallaxEffect))
         float dist = (cam.transform.position.x * parallaxEffect);
 
         //moves camera
         transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.x);
-
+        
+        
     }
 }
