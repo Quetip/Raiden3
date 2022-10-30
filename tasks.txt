@@ -6,6 +6,11 @@ story line
 weapon systems
 missile systems
 chain gun?
+3 planes
+	raiden - E / W speed boosts
+	trident - N / S speed boosts
+	epsilon - diagonal speed boosts
+"Satellite Cannon" bomb
 
 
 trouble, hardship, adversity, disaster, suffer, misery, heartbreak boss names
@@ -14,5 +19,8 @@ do not put spaces in files
 
 Optional
 multiplayer
+
+bigger video
+put text if front
 
 
