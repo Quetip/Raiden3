@@ -5,9 +5,11 @@ using UnityEngine;
 public class background : MonoBehaviour
 {
 
-     private float length, startpos;
+    private float length, startpos;
     public GameObject cam;
     public float parallaxEffect;
+    
+    Animator raidenShip;
     
     // Start is called before the first frame update
     void Start()
@@ -21,9 +23,8 @@ public class background : MonoBehaviour
     {
         float temp = (cam.transform.position.x * (1 - parallaxEffect));
         float dist = (cam.transform.position.x * parallaxEffect);
-
         //moves camera
-        transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.x);
-        
+        transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.x);    
     }
+
 }
