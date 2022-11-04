@@ -1,26 +1,37 @@
 to do:
-scrolling background
+
+11/4/22
+scripting animations together.
+
+
+scrolling background 
+	Auto scrolling
+	parallex
 raiden sprites
 enemy sprites
 story line
 weapon systems
 missile systems
 chain gun?
-3 planes
-	raiden - E / W speed boosts
-	trident - N / S speed boosts
-	epsilon - diagonal speed boosts
-"Satellite Cannon" bomb
-
+create explosion animations
+Player GUI
+Start menu
+Explosion animations
+no game stats after boss defeat screen
+balck and white screen after game over
 
 trouble, hardship, adversity, disaster, suffer, misery, heartbreak boss names
+Annoyance, Anger
 
 do not put spaces in files
 
 Optional
 multiplayer
 
-bigger video
-put text if front
 
+
+
+
+10/27/22
+added grid tilemap
 
